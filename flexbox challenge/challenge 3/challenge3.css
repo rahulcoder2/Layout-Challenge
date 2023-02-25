@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.nav{
+    flex-basis: 25%;
+    background-color: rgb(127, 216, 25);
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.header{
+    background-color: rgb(206, 192, 173);
+    height: 10vh;
+}
+
+.article{   
+    height: 75vh;
+    background-color: #fff;
+}
+
+.footer{
+    background-color: rgb(206, 192, 173);
+    height: 15vh;
+}
+
+h2{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
